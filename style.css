@@ -41,6 +41,7 @@ h1 {
  .container {
     display: grid;
     grid-template-columns: 80vw 17vw;
+    justify-content: space-between;
 }
 
 /* Estilo de Section */
@@ -56,6 +57,7 @@ section {
 div {
     background-color: #d8f8e1;
     border: 2px solid #b0f2c2;
+    margin: 1vw 0;
 }
 
  h2, h4{
@@ -68,6 +70,7 @@ div {
     background-color: #d8f8e1;
     border: 2px solid #b0f2c2;
     margin: 2vw 0;
+    padding: 0.5vw;
  }
 
  p {
@@ -80,8 +83,7 @@ div {
  aside {
     background-color: #fdcae1;
     border: 2px solid #fabfb7;
-    padding: 2vw;
-    margin: 0 1vw;
+    margin: 0 1vw 0 -2.5vw;
     border-radius: 50px 0;
     display: flex;
     align-items: center;
@@ -99,7 +101,7 @@ div {
  footer {
     display: flex;
     background-color: #fdcae1;
-    justify-content: right;
+    justify-content: center;
     border-radius: 10px;
     margin: 0.5vw 1vw;
     border: 2px solid #fabfb7;
